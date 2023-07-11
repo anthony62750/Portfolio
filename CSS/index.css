@@ -1,10 +1,74 @@
-nav,
-section {
-  border: 2px solid red;
+
+nav {
+  color:aliceblue;
+  font-weight: bold;
 }
 ul {
   list-style-type: none;
   display: flex;
   width: 100%;
   justify-content: space-around;
+  /* float: left; */
+  position : relative;
+}
+a{
+  text-decoration: none;
+  color:rgb(135,68,6,255);
+  /* text-align: center; */
+  font-style: oblique;
+}
+
+body {
+ color:black;
+  background-color:white;
+  background :url(/image/image_de_fond4.jpg) no-repeat ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+  }
+  #menu ul li a{
+    margin-top:17px;
+    background-color: rgba(69,146,218,255);
+    text-align:center;
+    display:inline-block;
+    border-style:solid;
+    border-radius:15px;
+    color:black;
+    text-decoration:none;
+    padding-top:17px;
+    padding-bottom:8px;
+    width:100px;
+    height:30px;
+
+   
+}
+.banner1{
+    height:40px;
+    width:100%;
+    background-color:rgb(105,167,228,255);
+}
+#menu{
+  height:100px;
+  width:100%;
+  background-color:rgb(250,239,255,255);
+}
+
+h2{
+  color :whitesmoke;
+  font-size: 3em;
+
+}
+
+footer{
+  position:absolute;
+  bottom: 0%;
+  height:80px;
+  width:100%;
+  background-color:rgb(105,167,228,255);
+}
+
+footer a img{
+  width: 7%;
+  float: right;
 }

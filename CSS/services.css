@@ -1,0 +1,21 @@
+ul {
+    font-family : "Times New Roman", Times, serif;
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+body {
+    color:black;
+     background-color:white;
+     background :url(/image/image_de_fond4.jpg) no-repeat ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+    
+     }
+     h2{
+        color :whitesmoke;
+        font-size: 3em;
+      
+      }
