@@ -2,6 +2,7 @@
 nav {
   color:aliceblue;
   font-weight: bold;
+  float: right;
 }
 ul {
   list-style-type: none;
@@ -27,19 +28,20 @@ body {
   height: 100vh;
  
   }
-  #menu ul li a{
-    margin-top:17px;
+  #menu ul li {
+    margin-top:11px;
     background-color: rgba(69,146,218,255);
     text-align:center;
     display:inline-block;
-    border-style:solid;
-    border-radius:15px;
-    color:black;
+    border:solid;
+    border-radius:30px;
+    color:rgb(247, 174, 61);
     text-decoration:none;
     padding-top:17px;
     padding-bottom:8px;
     width:100px;
     height:30px;
+    margin-right: 100px;
 
    
 }
@@ -49,9 +51,13 @@ body {
     background-color:rgb(105,167,228,255);
 }
 #menu{
-  height:100px;
+  height:80px;
   width:100%;
   background-color:rgb(250,239,255,255);
+}
+.logo{
+width: 35%;
+top: 0;
 }
 
 h2{
@@ -63,12 +69,12 @@ h2{
 footer{
   position:absolute;
   bottom: 0%;
-  height:80px;
+  height:75px;
   width:100%;
   background-color:rgb(105,167,228,255);
 }
 
 footer a img{
-  width: 7%;
+  width: 6%;
   float: right;
 }
