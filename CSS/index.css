@@ -22,7 +22,7 @@ a{
 body {
  color:black;
   background-color:white;
-  background :url(/image/image_de_fond4.jpg) no-repeat ;
+  background :url(/image/image_de_fond2.jpg) no-repeat ;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -30,7 +30,7 @@ body {
   }
   #menu ul li {
     margin-top:11px;
-    background-color: rgba(69,146,218,255);
+    background-color: rgba(255, 220, 119);
     text-align:center;
     display:inline-block;
     border:solid;
@@ -41,23 +41,24 @@ body {
     padding-bottom:8px;
     width:100px;
     height:30px;
-    margin-right: 100px;
+    margin-right: 110px;
 
    
 }
 .banner1{
     height:40px;
     width:100%;
-    background-color:rgb(105,167,228,255);
+    background-color:rgb(255, 220, 119);
 }
 #menu{
   height:80px;
   width:100%;
-  background-color:rgb(250,239,255,255);
+  background-color:rgb(158, 75, 33);
 }
 .logo{
-width: 35%;
-top: 0;
+width: 27%;
+margin-top: 0px;
+margin-right: 100px;
 }
 
 h2{
@@ -71,10 +72,33 @@ footer{
   bottom: 0%;
   height:75px;
   width:100%;
-  background-color:rgb(105,167,228,255);
+  background-color:rgb(255, 220, 119);
 }
 
 footer a img{
   width: 6%;
   float: right;
+}
+.mail{
+  margin-right: 82%;
+}
+.accueil {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 70px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+  color:aliceblue;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+section{
+  font-size: 40px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+  color:aliceblue;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+
 }
