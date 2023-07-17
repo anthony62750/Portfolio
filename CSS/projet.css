@@ -97,7 +97,8 @@ footer a img{
 clear: both;
 position: absolute;
 margin-top: 25%;
-margin-left: 2%;
+margin-left: 2%; 
+/* ceci est un commentaire  */
 height: 10px;
 width: 96%;
 background-color: rgb(255, 220, 119);
