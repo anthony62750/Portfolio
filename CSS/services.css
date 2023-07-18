@@ -82,3 +82,55 @@ footer a img{
 .mail{
   margin-right: 82%;
 }
+section{
+  font-size: 40px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+  color:aliceblue;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+section .CV a img{
+  width: 29%;
+  float: right;
+  margin-right: 5%;
+}
+section .CV p{
+  position: absolute;
+  bottom: 20%;
+  font-size: 100%;
+  margin-right: 40%;
+  margin-left: 5%;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+  color:aliceblue;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+
+}
+p{
+  color: white;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+}
+/* Container for skill bars */
+.container {
+  width: 60%; /* Full width */
+  margin-left: 2%;
+  background-color: #ddd; /* Grey background */
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.css {width: 80%; background-color: #2196F3; border-radius: 20px;} /* Blue */
+.js {width: 65%; background-color: #f44336;border-radius: 20px;} /* Red */
+.php {width: 60%; background-color: #808080;border-radius: 20px;} /* Dark Grey */

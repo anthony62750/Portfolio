@@ -82,3 +82,41 @@ footer a img{
 .mail{
   margin-right: 82%;
 }
+h2{
+  font-size: 60px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+  color:aliceblue;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#sport{
+  width: 40%;
+  margin-left: 2%;
+}
+#devweb{
+  position: absolute;
+  width: 30%;
+  /* float: left; */
+  bottom: 10%;
+  left: 5%;
+  
+}
+
+#description p{
+  position: relative;
+  font-size: 200%;
+  line-height: 170%;
+  float:right;
+  text-align: center;
+  width: 50%;
+  right: 5%;
+  bottom: 180px;
+  text-align: justify;
+  color:white;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: rgb(158, 75, 33);
+}
+
+
