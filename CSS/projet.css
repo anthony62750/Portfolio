@@ -1,0 +1,111 @@
+
+nav {
+  color:aliceblue;
+  font-weight: bold;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  /* float: left; */
+  position : relative;
+}
+a{
+  text-decoration: none;
+  color:rgb(135,68,6,255);
+  /* text-align: center; */
+  font-style: oblique;
+}
+
+body {
+ color:black;
+  background-color:white;
+  background :url(/image/image_de_fond2.jpg) no-repeat ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+ 
+  }
+  #menu ul li {
+    margin-top:11px;
+    background-color: rgba(255, 220, 119);
+    text-align:center;
+    display:inline-block;
+    border:solid;
+    border-radius:30px;
+    color:rgb(247, 174, 61);
+    text-decoration:none;
+    padding-top:17px;
+    padding-bottom:8px;
+    width:100px;
+    height:30px;
+    margin-right: 110px;
+
+   
+}
+.banner1{
+    height:40px;
+    width:100%;
+    background-color:rgb(255, 220, 119);
+}
+#menu{
+  height:80px;
+  width:100%;
+  background-color:rgb(158, 75, 33);
+}
+.logo{
+width: 27%;
+margin-top: 0px;
+margin-right: 100px;
+}
+
+h2{
+  color :whitesmoke;
+  font-size: 3em;
+
+}
+
+footer{
+  position:absolute;
+  bottom: 0%;
+  height:75px;
+  width:100%;
+  background-color:rgb(255, 220, 119);
+}
+
+footer a img{
+  width: 6%;
+  float: right;
+}
+.mail{
+  margin-right: 82%;
+}
+
+.verticale{
+	clear: both;
+	position: absolute;
+	margin-top :10px;
+	margin-left: 50%;
+	height: 70%;
+	width : 10px;
+	background-color: rgb(255, 220, 119);
+  border: 2px solid rgb(158, 75, 33);
+}
+.horizontal{
+clear: both;
+position: absolute;
+margin-top: 25%;
+margin-left: 2%; 
+/* ceci est un commentaire  */
+height: 10px;
+width: 96%;
+background-color: rgb(255, 220, 119);
+border: 2px solid rgb(158, 75, 33);
+}
+
+.tetris{
+  width: 300px;
+  margin-left: 5%;
+}
